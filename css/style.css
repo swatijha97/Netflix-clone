@@ -327,11 +327,23 @@ img {
   #tab-2-content .tab-2-content-top {
     display: block;
     text-align: center;
+    margin-bottom: 20px;
   }
   #tab-2-content .tab-2-content-bottom {
     grid-template-columns: 1fr;
   }
-
+  .showcase-top a {
+    transform: translate(-25%, -50%);
+  }
+  .showcase-content h1 {
+    font-size: 3rem;
+  }
+  .btn-xl {
+    padding: 1.5rem;
+  }
+  .showcase-content {
+    margin-top: 5.5rem;
+  }
   .container {
     max-width: 95%;
     padding: 0 2.5%;
