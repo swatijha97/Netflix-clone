@@ -270,6 +270,15 @@ img {
 .btn-icon {
   margin-left: 1rem;
 }
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
 @media (max-width: 960px) {
   .showcase {
     height: 70vh;
@@ -321,5 +330,10 @@ img {
   }
   #tab-2-content .tab-2-content-bottom {
     grid-template-columns: 1fr;
+  }
+
+  .container {
+    max-width: 95%;
+    padding: 0 2.5%;
   }
 }
